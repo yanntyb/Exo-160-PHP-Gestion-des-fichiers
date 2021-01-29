@@ -23,7 +23,7 @@ $file = fopen("fichier.txt","a");
 foreach($tab as $item){
     fwrite($file,$item);
 }
-
+fclose($file);
 /**
  * 5. Trouvez une solution pour afficher à l'aide d'un simple echo l'extension du fichier index.php
  */
